@@ -25,7 +25,7 @@ workspace {
             searchDatabase = container "Search Database" "Stores searchable books details" "ElasticSearch" "Database"
             readWriteRelationalDatabase = container "Read/Write Relational Database" "Stores books details" "PostgreSQL" "Database"
             readerCache = container "Reader Cache" "Caches books details" "Memcached" "Database"
-            publisherRecurrentUpdater = container "Publisher Recurrent Updater" "Updates the Read/Write Relational Database with detail from Publisher System" "Kafka"
+            publisherRecurrentUpdater = container "Publisher Recurrent Updater" "Updates the Read/Write Relational Database with detail from Publisher System" "Kafka"  
         }
 
         #---External system
@@ -38,12 +38,22 @@ workspace {
         authorizedUser -> bookstoreSystem "Interacts with book records using"
         publicUser -> bookstoreSystem "Interacts with book records using"
 
-        bookstoreSystem -> authorizationSystem "Authorizes user using"
-        bookstoreSystem -> publisherSystem "Gives details about published books using"
+        bookstoreSystem -> authorizationSystem "Authorizes user using" {
+            tags "Async request"
+        }
+        bookstoreSystem -> publisherSystem "Gives details about published books using" {
+            tags "Async request"
+        }
 
-        authorizationSystem -> authorizedUser "Authorizes user"
-        publisherSystem -> authorizedUser "Gives details about published books to"
-        publisherSystem -> publicUser "Gives details about published books to"
+        authorizationSystem -> authorizedUser "Authorizes user" {
+            tags "Async request"
+        }
+        publisherSystem -> authorizedUser "Gives details about published books to" {
+            tags "Async request"
+        }
+        publisherSystem -> publicUser "Gives details about published books to" {
+            tags "Async request"
+        }
 
         #---Relationship between containers
         publicUser -> publicWebApi "Gets books details using"
@@ -51,11 +61,15 @@ workspace {
         publicWebApi -> readerCache "Reads/writes data to"
 
         authorizedUser -> searchWebApi "Searches books records via HTTPs handlers"
-        searchWebApi -> authorizationSystem "Authorizes users using"
+        searchWebApi -> authorizationSystem "Authorizes users using" {
+            tags "Async request"
+        }
         searchWebApi -> searchDatabase "Search read-only records using"
 
         authorizedUser -> adminWebApi "Administers books details via HTTP handlers"
-        adminWebApi -> authorizationSystem "Authorizes users using"
+        adminWebApi -> authorizationSystem "Authorizes users using" {
+            tags "Async request"
+        }
         adminWebApi -> readWriteRelationalDatabase "Administers records using" "Reads data from and writes data to"
         adminWebApi -> bookKafkaSystem "Publishes events to"
 
@@ -71,8 +85,10 @@ workspace {
         bookService -> eventsPublisherService " Publishes books-related events to"
         bookService -> authorizationService "Authorizes books detail using"
 
-        authorizationService -> authorizationSystem "Authorizes users using"
-        eventsPublisherService -> bookKafkaSystem "Publishes books-related domain events to" 
+        authorizationService -> authorizationSystem "Authorizes users using" {
+            tags "Async request"
+        }
+        eventsPublisherService -> bookKafkaSystem "Publishes books-related domain events to"
     }
 
     views {
@@ -85,7 +101,7 @@ workspace {
         #---Level 2
         container bookstoreSystem "Containers" {
             include *
-            # autoLayout 
+            autoLayout 
         }
 
         component adminWebApi "Components"{
@@ -99,6 +115,14 @@ workspace {
             element "External System" {
                 background #999999
                 color #ffffff
+            }
+
+            relationship "Relationship"{
+                dashed false
+            }
+
+            relationship "Async request"{
+                dashed true
             }
 
             element "Database" {
