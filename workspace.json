@@ -1,0 +1,686 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-26T04:41:09Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgIy0tLUxldmVsIDEKICAgICAgICAjLS0tUGVvcGxlL2FjdG9yCiAgICAgICAgIyMgPHZhcmlhYmxlPiA9IHBlcnNvbiA8bmFtZT4gPGRlc2NyaXB0aW9uPiA8dGFnPgogICAgICAgIHB1YmxpY1VzZXIgPSBwZXJzb24gIlB1YmxpYyBVc2VyIiAiQW55IHVzZXIgd2hvIGNhbiBhY2Nlc3MgYnV0IGlzIG5vdCBsb2dnZWQgb24gdG8gYSBwb3J0YWwiICJVc2VyIgogICAgICAgIGF1dGhvcml6ZWRVc2VyID0gcGVyc29uICJBdXRob3JpemVkIFVzZXIiICJBIHVzZXIgb2YgYm9vayBzdG9yZSBzeXN0ZW0sIHdobyBoYXMgYSBwZXJzb25hbCBhY2NvdW50IiAiVXNlciIKCiAgICAgICAgIy0tLVNvZnR3YXJlIHN5c3RlbQogICAgICAgICMjIDx2YXJpYWJsZT4gPSBzb2Z0d2FyZVN5c3RlbSA8bmFtZT4gPGRlc2NyaXB0aW9uPiA8dGFnPgogICAgICAgIGJvb2tzdG9yZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJCb29rcyBTdG9yZSBTeXN0ZW0iICJBbGxvd3MgdXNlcnMgdG8gaW50ZXJhY3Qgd2l0aCBib29rcyByZWNvcmRzIiAiVGFyZ2V0IFN5c3RlbSIgewogICAgICAgICAgICAjIy0tLUxldmVsIDIKICAgICAgICAgICAgYWRtaW5XZWJBcGkgPSBjb250YWluZXIgIkFkbWluIFdlYiBBUEkiICJBbGxvd3Mgb25seSBhdXRob3JpemVkIHVzZXJzIGFkbWluaXN0ZXJpbmcgYm9va3MgZGV0YWlscyB2aWEgSFRUUCBoYW5kbGVycyIgIkdvIiB7CiAgICAgICAgICAgICAgICAjIyMtLS1MZXZlbCAzCiAgICAgICAgICAgICAgICBib29rU2VydmljZSA9IGNvbXBvbmVudCAiQm9vayBTZXJ2aWNlIiAiQWxsb3dzIGFkbWluaXN0ZXJpbmcgYm9va3MgZGV0YWlsIiAiR28gU2VydmljZSIKICAgICAgICAgICAgICAgIGF1dGhvcml6YXRpb25TZXJ2aWNlID0gY29tcG9uZW50ICJBdXRob3JpemF0aW9uIFNlcnZpY2UiICJBbGxvd3MgYXV0aG9yaXppbmcgdXNlcnMsIGJvb2tzIGRldGFpbCIgIkdvIFNlcnZpY2UiCiAgICAgICAgICAgICAgICBldmVudHNQdWJsaXNoZXJTZXJ2aWNlID0gY29tcG9uZW50ICJFdmVudHMgUHVibGlzaGVyIFNlcnZpY2UiICJQdWJsaXNoZXMgYm9va3MtcmVsYXRlZCBkb21haW4gZXZlbnRzIiAgIkdvIFNlcnZpY2UiCgogICAgICAgICAgICB9CiAgICAgICAgICAgIHNlYXJjaFdlYkFwaSA9IGNvbnRhaW5lciAiU2VhcmNoIFdlYiBBUEkiICJBbGxvd3Mgb25seSBhdXRob3JpemVkIHVzZXJzIHNlYXJjaGluZyBib29rcyByZWNvcmRzIHZpYSBIVFRQcyBoYW5kbGVycyIgIkdvIgogICAgICAgICAgICBwdWJsaWNXZWJBcGkgPSBjb250YWluZXIgIlB1YmxpYyBXZWIgQVBJIiAiQWxsb3dzIHB1YmxpYyB1c2VycyBnZXR0aW5nIGJvb2tzIGRldGFpbHMiICJHbyIKICAgICAgICAgICAgYm9va0thZmthU3lzdGVtID0gY29udGFpbmVyICJCb29rIEthZmthIFN5c3RlbSIgIkhhbmRsZXMgYm9vay1yZWxhdGVkIGRvbWFpbiBldmVudHMiICJBcGFjaGUgS2Fma2EgMy4wIgogICAgICAgICAgICBlbGFzdGljU2VhcmNoRXZlbnRzQ29uc3VtZXIgPSBjb250YWluZXIgIkVsYXN0aWNTZWFyY2ggRXZlbnRzIENvbnN1bWVyIiAiTGlzdGVuaW5nIHRvIEthZmthIGRvbWFpbiBldmVudHMgYW5kIHdyaXRlIHB1Ymxpc2hlciB0byBTZWFyY2ggRGF0YWJhc2UgZm9yIHVwZGF0aW5nIiAiR28iCiAgICAgICAgICAgIHNlYXJjaERhdGFiYXNlID0gY29udGFpbmVyICJTZWFyY2ggRGF0YWJhc2UiICJTdG9yZXMgc2VhcmNoYWJsZSBib29rcyBkZXRhaWxzIiAiRWxhc3RpY1NlYXJjaCIgIkRhdGFiYXNlIgogICAgICAgICAgICByZWFkV3JpdGVSZWxhdGlvbmFsRGF0YWJhc2UgPSBjb250YWluZXIgIlJlYWQvV3JpdGUgUmVsYXRpb25hbCBEYXRhYmFzZSIgIlN0b3JlcyBib29rcyBkZXRhaWxzIiAiUG9zdGdyZVNRTCIgIkRhdGFiYXNlIgogICAgICAgICAgICByZWFkZXJDYWNoZSA9IGNvbnRhaW5lciAiUmVhZGVyIENhY2hlIiAiQ2FjaGVzIGJvb2tzIGRldGFpbHMiICJNZW1jYWNoZWQiICJEYXRhYmFzZSIKICAgICAgICAgICAgcHVibGlzaGVyUmVjdXJyZW50VXBkYXRlciA9IGNvbnRhaW5lciAiUHVibGlzaGVyIFJlY3VycmVudCBVcGRhdGVyIiAiVXBkYXRlcyB0aGUgUmVhZC9Xcml0ZSBSZWxhdGlvbmFsIERhdGFiYXNlIHdpdGggZGV0YWlsIGZyb20gUHVibGlzaGVyIFN5c3RlbSIgIkthZmthIgogICAgICAgIH0KCiAgICAgICAgIy0tLUV4dGVybmFsIHN5c3RlbQogICAgICAgICMjIDx2YXJpYWJsZT4gPSBzb2Z0d2FyZVN5c3RlbSA8bmFtZT4gPGRlc2NyaXB0aW9uPiA8dGFnPgogICAgICAgIGF1dGhvcml6YXRpb25TeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQXV0aG9yaXphdGlvbiBTeXN0ZW0iICJBbiBleHRlcm5hbCBzeXN0ZW0gdXNlZCBmb3IgYXV0aG9yaXphdGlvbiIgIkV4dGVybmFsIFN5c3RlbSIKICAgICAgICBwdWJsaXNoZXJTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiUHVibGlzaGVyIFN5c3RlbSIgIkFuIGV4dGVybmFsIHN5c3RlbSB1c2VkIGZvciBnaXZpbmcgZGV0YWlscyBhYm91dCBib29rcyBwdWJsaXNoZWQgYnkgQm9va3MgU3RvcmUgU3lzdGVtIiAiRXh0ZXJuYWwgU3lzdGVtIgoKCiAgICAgICAgIy0tLVJlbGF0aW9uc2hpcCBiZXR3ZWVuIHBlb3BsZSBhbmQgc29mdHdhcmUgc3lzdGVtCiAgICAgICAgYXV0aG9yaXplZFVzZXIgLT4gYm9va3N0b3JlU3lzdGVtICJJbnRlcmFjdHMgd2l0aCBib29rIHJlY29yZHMgdXNpbmciCiAgICAgICAgcHVibGljVXNlciAtPiBib29rc3RvcmVTeXN0ZW0gIkludGVyYWN0cyB3aXRoIGJvb2sgcmVjb3JkcyB1c2luZyIKCiAgICAgICAgYm9va3N0b3JlU3lzdGVtIC0+IGF1dGhvcml6YXRpb25TeXN0ZW0gIkF1dGhvcml6ZXMgdXNlciB1c2luZyIKICAgICAgICBib29rc3RvcmVTeXN0ZW0gLT4gcHVibGlzaGVyU3lzdGVtICJHaXZlcyBkZXRhaWxzIGFib3V0IHB1Ymxpc2hlZCBib29rcyB1c2luZyIKCiAgICAgICAgYXV0aG9yaXphdGlvblN5c3RlbSAtPiBhdXRob3JpemVkVXNlciAiQXV0aG9yaXplcyB1c2VyIgogICAgICAgIHB1Ymxpc2hlclN5c3RlbSAtPiBhdXRob3JpemVkVXNlciAiR2l2ZXMgZGV0YWlscyBhYm91dCBwdWJsaXNoZWQgYm9va3MgdG8iCiAgICAgICAgcHVibGlzaGVyU3lzdGVtIC0+IHB1YmxpY1VzZXIgIkdpdmVzIGRldGFpbHMgYWJvdXQgcHVibGlzaGVkIGJvb2tzIHRvIgoKICAgICAgICAjLS0tUmVsYXRpb25zaGlwIGJldHdlZW4gY29udGFpbmVycwogICAgICAgIHB1YmxpY1VzZXIgLT4gcHVibGljV2ViQXBpICJHZXRzIGJvb2tzIGRldGFpbHMgdXNpbmciCiAgICAgICAgcHVibGljV2ViQXBpIC0+IHJlYWRXcml0ZVJlbGF0aW9uYWxEYXRhYmFzZSAiUmVhZHMgZGF0YSBmcm9tIgogICAgICAgIHB1YmxpY1dlYkFwaSAtPiByZWFkZXJDYWNoZSAiUmVhZHMvd3JpdGVzIGRhdGEgdG8iCgogICAgICAgIGF1dGhvcml6ZWRVc2VyIC0+IHNlYXJjaFdlYkFwaSAiU2VhcmNoZXMgYm9va3MgcmVjb3JkcyB2aWEgSFRUUHMgaGFuZGxlcnMiCiAgICAgICAgc2VhcmNoV2ViQXBpIC0+IGF1dGhvcml6YXRpb25TeXN0ZW0gIkF1dGhvcml6ZXMgdXNlcnMgdXNpbmciCiAgICAgICAgc2VhcmNoV2ViQXBpIC0+IHNlYXJjaERhdGFiYXNlICJTZWFyY2ggcmVhZC1vbmx5IHJlY29yZHMgdXNpbmciCgogICAgICAgIGF1dGhvcml6ZWRVc2VyIC0+IGFkbWluV2ViQXBpICJBZG1pbmlzdGVycyBib29rcyBkZXRhaWxzIHZpYSBIVFRQIGhhbmRsZXJzIgogICAgICAgIGFkbWluV2ViQXBpIC0+IGF1dGhvcml6YXRpb25TeXN0ZW0gIkF1dGhvcml6ZXMgdXNlcnMgdXNpbmciCiAgICAgICAgYWRtaW5XZWJBcGkgLT4gcmVhZFdyaXRlUmVsYXRpb25hbERhdGFiYXNlICJBZG1pbmlzdGVycyByZWNvcmRzIHVzaW5nIiAiUmVhZHMgZGF0YSBmcm9tIGFuZCB3cml0ZXMgZGF0YSB0byIKICAgICAgICBhZG1pbldlYkFwaSAtPiBib29rS2Fma2FTeXN0ZW0gIlB1Ymxpc2hlcyBldmVudHMgdG8iCgogICAgICAgIGVsYXN0aWNTZWFyY2hFdmVudHNDb25zdW1lciAtPiBib29rS2Fma2FTeXN0ZW0gIkxpc3RlbnMgdG8gS2Fma2EgZG9tYWluIGV2ZW50cyB1c2luZyIKICAgICAgICBlbGFzdGljU2VhcmNoRXZlbnRzQ29uc3VtZXIgLT4gc2VhcmNoRGF0YWJhc2UgIldyaXRlIHB1Ymxpc2hlciB0byIKCiAgICAgICAgcHVibGlzaGVyUmVjdXJyZW50VXBkYXRlciAtPiBwdWJsaXNoZXJTeXN0ZW0gIkxpc3RlbnMgdG8gZXh0ZXJuYWwgZXZlbnRzIGNvbWluZyBmcm9tIgogICAgICAgIHB1Ymxpc2hlclJlY3VycmVudFVwZGF0ZXIgLT4gYWRtaW5XZWJBcGkgIlVwZGF0ZXMgZGF0YSB3aXRoIGRldGFpbCBmcm9tIFB1Ymxpc2hlciBTeXN0ZW0gdXNpbmciCgogICAgICAgICMtLS1SZWxhdGlvbnNoaXAgYmV0d2VlbiBjb21wb25lbnRzCiAgICAgICAgYXV0aG9yaXplZFVzZXIgLT4gYm9va1NlcnZpY2UgIkFkbWluaXN0ZXJzIGJvb2tzIGRldGFpbCB1c2luZyIKICAgICAgICBib29rU2VydmljZSAtPiByZWFkV3JpdGVSZWxhdGlvbmFsRGF0YWJhc2UgIlJlYWQgZnJvbSBhbmQgd3JpdGUgZGF0YSB0byIKICAgICAgICBib29rU2VydmljZSAtPiBldmVudHNQdWJsaXNoZXJTZXJ2aWNlICIgUHVibGlzaGVzIGJvb2tzLXJlbGF0ZWQgZXZlbnRzIHRvIgogICAgICAgIGJvb2tTZXJ2aWNlIC0+IGF1dGhvcml6YXRpb25TZXJ2aWNlICJBdXRob3JpemVzIGJvb2tzIGRldGFpbCB1c2luZyIKCiAgICAgICAgYXV0aG9yaXphdGlvblNlcnZpY2UgLT4gYXV0aG9yaXphdGlvblN5c3RlbSAiQXV0aG9yaXplcyB1c2VycyB1c2luZyIKICAgICAgICBldmVudHNQdWJsaXNoZXJTZXJ2aWNlIC0+IGJvb2tLYWZrYVN5c3RlbSAiUHVibGlzaGVzIGJvb2tzLXJlbGF0ZWQgZG9tYWluIGV2ZW50cyB0byIgCiAgICB9CgogICAgdmlld3MgewogICAgICAgICMtLS1MZXZlbCAxCiAgICAgICAgc3lzdGVtQ29udGV4dCBib29rc3RvcmVTeXN0ZW0gIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgICMtLS1MZXZlbCAyCiAgICAgICAgY29udGFpbmVyIGJvb2tzdG9yZVN5c3RlbSAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIyBhdXRvTGF5b3V0IAogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGFkbWluV2ViQXBpICJDb21wb25lbnRzInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgICMgZWxlbWVudCA8dGFnPiB7fQoKICAgICAgICAgICAgZWxlbWVudCAiRXh0ZXJuYWwgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgIH0KCn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "publicuser"
+      },
+      "name" : "Public User",
+      "description" : "Any user who can access but is not logged on to a portal",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Interacts with book records using"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Gets books details using"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "authorizeduser"
+      },
+      "name" : "Authorized User",
+      "description" : "A user of book store system, who has a personal account",
+      "relationships" : [ {
+        "id" : "28",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "8",
+        "description" : "Searches books records via HTTPs handlers"
+      }, {
+        "id" : "39",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Administers books detail using"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Interacts with book records using"
+      }, {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Administers books details via HTTP handlers"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "17",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "publishersystem"
+      },
+      "name" : "Publisher System",
+      "description" : "An external system used for giving details about books published by Books Store System",
+      "relationships" : [ {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "1",
+        "description" : "Gives details about published books to"
+      }, {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "17",
+        "destinationId" : "2",
+        "description" : "Gives details about published books to"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Target System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "bookstoresystem"
+      },
+      "name" : "Books Store System",
+      "description" : "Allows users to interact with books records",
+      "relationships" : [ {
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "description" : "Gives details about published books using"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "16",
+        "description" : "Authorizes user using"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "publisherrecurrentupdater"
+        },
+        "name" : "Publisher Recurrent Updater",
+        "description" : "Updates the Read/Write Relational Database with detail from Publisher System",
+        "relationships" : [ {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "17",
+          "description" : "Listens to external events coming from"
+        }, {
+          "id" : "38",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "4",
+          "description" : "Updates data with detail from Publisher System using"
+        } ],
+        "technology" : "Kafka",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "readwriterelationaldatabase"
+        },
+        "name" : "Read/Write Relational Database",
+        "description" : "Stores books details",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bookkafkasystem"
+        },
+        "name" : "Book Kafka System",
+        "description" : "Handles book-related domain events",
+        "technology" : "Apache Kafka 3.0",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "publicwebapi"
+        },
+        "name" : "Public Web API",
+        "description" : "Allows public users getting books details",
+        "relationships" : [ {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "14",
+          "description" : "Reads/writes data to"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "13",
+          "description" : "Reads data from"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "elasticsearcheventsconsumer"
+        },
+        "name" : "ElasticSearch Events Consumer",
+        "description" : "Listening to Kafka domain events and write publisher to Search Database for updating",
+        "relationships" : [ {
+          "id" : "35",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Listens to Kafka domain events using"
+        }, {
+          "id" : "36",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Write publisher to"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "searchwebapi"
+        },
+        "name" : "Search Web API",
+        "description" : "Allows only authorized users searching books records via HTTPs handlers",
+        "relationships" : [ {
+          "id" : "29",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "16",
+          "description" : "Authorizes users using"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "12",
+          "description" : "Search read-only records using"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "readercache"
+        },
+        "name" : "Reader Cache",
+        "description" : "Caches books details",
+        "technology" : "Memcached",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "adminwebapi"
+        },
+        "name" : "Admin Web API",
+        "description" : "Allows only authorized users administering books details via HTTP handlers",
+        "relationships" : [ {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "10",
+          "description" : "Publishes events to"
+        }, {
+          "id" : "32",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "16",
+          "description" : "Authorizes users using"
+        }, {
+          "id" : "33",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "13",
+          "description" : "Administers records using",
+          "technology" : "Reads data from and writes data to"
+        } ],
+        "technology" : "Go",
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "authorizationservice"
+          },
+          "name" : "Authorization Service",
+          "description" : "Allows authorizing users, books detail",
+          "relationships" : [ {
+            "id" : "43",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "16",
+            "description" : "Authorizes users using"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "eventspublisherservice"
+          },
+          "name" : "Events Publisher Service",
+          "description" : "Publishes books-related domain events",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "10",
+            "description" : "Publishes books-related domain events to"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "bookservice"
+          },
+          "name" : "Book Service",
+          "description" : "Allows administering books detail",
+          "relationships" : [ {
+            "id" : "40",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "13",
+            "description" : "Read from and write data to"
+          }, {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "7",
+            "description" : "Publishes books-related events to"
+          }, {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Authorizes books detail using"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "searchdatabase"
+        },
+        "name" : "Search Database",
+        "description" : "Stores searchable books details",
+        "technology" : "ElasticSearch",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "16",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "authorizationsystem"
+      },
+      "name" : "Authorization System",
+      "description" : "An external system used for authorization",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "16",
+        "destinationId" : "2",
+        "description" : "Authorizes user"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1766,
+        "height" : 2516
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 729,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 358,
+        "y" : 2008
+      }, {
+        "id" : "3",
+        "x" : 375,
+        "y" : 808
+      }, {
+        "id" : "16",
+        "x" : 358,
+        "y" : 1408
+      }, {
+        "id" : "17",
+        "x" : 1108,
+        "y" : 1408
+      } ],
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 208,
+          "y" : 1708
+        }, {
+          "x" : 208,
+          "y" : 1408
+        } ]
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 4620,
+        "height" : 2020
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 3950,
+        "y" : 820
+      }, {
+        "id" : "12",
+        "x" : 3200,
+        "y" : 1420
+      }, {
+        "id" : "13",
+        "x" : 2450,
+        "y" : 1420
+      }, {
+        "id" : "14",
+        "x" : 1700,
+        "y" : 1420
+      }, {
+        "id" : "15",
+        "x" : 2450,
+        "y" : 220
+      }, {
+        "id" : "16",
+        "x" : 950,
+        "y" : 820
+      }, {
+        "id" : "17",
+        "x" : 200,
+        "y" : 820
+      }, {
+        "id" : "1",
+        "x" : 200,
+        "y" : 1420
+      }, {
+        "id" : "2",
+        "x" : 950,
+        "y" : 1420
+      }, {
+        "id" : "4",
+        "x" : 3200,
+        "y" : 820
+      }, {
+        "id" : "8",
+        "x" : 2450,
+        "y" : 820
+      }, {
+        "id" : "9",
+        "x" : 1700,
+        "y" : 820
+      }, {
+        "id" : "10",
+        "x" : 3950,
+        "y" : 1420
+      } ],
+      "relationships" : [ {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 2865,
+          "y" : 730
+        }, {
+          "x" : 1671,
+          "y" : 670
+        } ]
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 1521,
+          "y" : 1420
+        }, {
+          "x" : 2665,
+          "y" : 1295
+        } ]
+      }, {
+        "id" : "30",
+        "vertices" : [ {
+          "x" : 3035,
+          "y" : 1050
+        } ]
+      }, {
+        "id" : "29",
+        "vertices" : [ {
+          "x" : 2145,
+          "y" : 400
+        }, {
+          "x" : 1470,
+          "y" : 465
+        } ]
+      }, {
+        "id" : "28",
+        "vertices" : [ {
+          "x" : 1335,
+          "y" : 1240
+        }, {
+          "x" : 2145,
+          "y" : 1150
+        } ]
+      }, {
+        "id" : "27",
+        "vertices" : [ {
+          "x" : 2105,
+          "y" : 1200
+        }, {
+          "x" : 2020,
+          "y" : 1355
+        } ]
+      }, {
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 1940,
+          "y" : 521
+        }, {
+          "x" : 1050,
+          "y" : 710
+        } ]
+      }, {
+        "id" : "26",
+        "vertices" : [ {
+          "x" : 2355,
+          "y" : 1190
+        } ]
+      }, {
+        "id" : "25",
+        "vertices" : [ {
+          "x" : 920,
+          "y" : 1275
+        }, {
+          "x" : 1550,
+          "y" : 1140
+        } ]
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 3725,
+          "y" : 1535
+        } ]
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 3715,
+          "y" : 950
+        } ]
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 1505,
+          "y" : 1200
+        }, {
+          "x" : 1500,
+          "y" : 1320
+        } ]
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 2980,
+          "y" : 1485
+        } ]
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Components",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 2978,
+        "height" : 2620
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 2328,
+        "y" : 820
+      }, {
+        "id" : "2",
+        "x" : 932,
+        "y" : 2020
+      }, {
+        "id" : "16",
+        "x" : 220,
+        "y" : 1420
+      }, {
+        "id" : "5",
+        "x" : 970,
+        "y" : 220
+      }, {
+        "id" : "6",
+        "x" : 220,
+        "y" : 820
+      }, {
+        "id" : "7",
+        "x" : 970,
+        "y" : 820
+      }, {
+        "id" : "10",
+        "x" : 970,
+        "y" : 1420
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1570,
+          "y" : 1720
+        }, {
+          "x" : 1570,
+          "y" : 820
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Components"
+    }
+  }
+}
