@@ -25,7 +25,7 @@ workspace {
             searchDatabase = container "Search Database" "Stores searchable books details" "ElasticSearch" "Database"
             readWriteRelationalDatabase = container "Read/Write Relational Database" "Stores books details" "PostgreSQL" "Database"
             readerCache = container "Reader Cache" "Caches books details" "Memcached" "Database"
-            publisherRecurrentUpdater = container "Publisher Recurrent Updater" "Updates the Read/Write Relational Database with detail from Publisher System" "Kafka"  
+            publisherRecurrentUpdater = container "Publisher Recurrent Updater" "Updates the Read/Write Relational Database with detail from Publisher System" "Kafka"
         }
 
         #---External system
