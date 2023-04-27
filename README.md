@@ -1,5 +1,5 @@
-# c4-model-exercise
-c4-model-exercise
+# C4 Model Exercise
+C4 Model Exercise is using Structurizr to draw C4 Model for Books Store System.
 
 
 ```
