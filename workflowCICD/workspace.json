@@ -1,0 +1,1316 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-27T10:25:34Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIGV4dGVuZHMgLi4vY2xvdWQvd29ya3NwYWNlLmRzbCB7CgogICAgbW9kZWwgewogICAgICAgIGRldmVsb3BlciA9IHBlcnNvbiAiRGV2ZWxvcGVyIiAiQSBzb2Z0d2FyZSBlbmdpbmVlciB3aG8gY29udHJpYnV0ZXMgdGhlIHN5c3RlbSIgIlVzZXIiCiAgICAgICAgZHluYW1pY0Jvb2tzU3RvcmVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiV29ya2Zsb3cgQ0kvQ0QgZm9yIGRlcGxveWluZyBCb29rcyBTdG9yZSBTeXN0ZW0iICJXb3JrZmxvdyBDSS9DRCBmb3IgZGVwbG95aW5nIEJvb2tzIFN0b3JlIFN5c3RlbSIgewogICAgICAgICAgICBzb3VyY2VSZXBvc2l0b3J5ID0gY29udGFpbmVyICJTb3VyY2UgQ29kZSBSZXBvc2l0b3J5IiAiQSBzdG9yYWdlIGxvY2F0aW9uIGZvciBjb2RlIGFuZCBvdGhlciBzb2Z0d2FyZSBkZXZlbG9wbWVudCBhc3NldHMsIHN1Y2ggYXMgZG9jdW1lbnRhdGlvbiwgdGVzdHMsIGFuZCBzY3JpcHRzIiAiR2lIdWIsIEdpdExhYiwgQml0YnVja2V0LCAuLi4iCiAgICAgICAgICAgIGF3c0Nsb3VkID0gY29udGFpbmVyICJBV1MgQ2xvdWQiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkFXUyIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDbG91ZCIKICAgICAgICAgICAgICAgICMtLS1EeW5hbWljIGRpYWdyYW0KICAgICAgICAgICAgICAgIGNvZGVQaXBlbGluZSA9IGNvbXBvbmVudCAiQVdTIENvZGVQaXBlbGluZSIgIkRvd25sb2FkcyBzb3VyY2UgY29kZSBhbmQgc3RhcnRzIHRoZSBidWlsZCBwcm9jZXNzIiAiQVdTIENvZGVQaXBlbGluZSBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQVdTIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIENvZGVQaXBlbGluZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvZGVCdWlsZCA9IGNvbXBvbmVudCAiQVdTIENvZGVCdWlsZCIgIkRvd25sb2FkcyB0aGUgbmVjZXNzYXJ5IHNvdXJjZSBmaWxlcywgYnVpbGRzIGFuZCB0YWdzIGEgbG9jYWwgRG9ja2VyIGNvbnRhaW5lciBpbWFnZSIgIkFXUyBDb2RlQnVpbGQgU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFXUyIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDb2RlQnVpbGQiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhbWF6b25FS1MgPSBjb21wb25lbnQgIkFXUyBFS1MiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBLdWJlcm5ldGVzIFNlcnZpY2UiICJBV1MgRUtTIFNlcnZpY2UiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJBV1MiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBLdWJlcm5ldGVzIFNlcnZpY2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhbWF6b25FQ1IgPSBjb21wb25lbnQgIkFtYXpvbiBFQ1IiICJTdG9yZXMgY29udGFpbmVyIGltYWdlcyB3aGljaCBhcmUgdGFnZ2VkIHdpdGggYSB1bmlxdWUgbGFiZWwgZGVyaXZlZCBmcm9tIHRoZSByZXBvc2l0b3J5IGNvbW1pdCBoYXNoIiAiQW1hem9uIEVDUiBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQVdTIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiBDb250YWluZXIgUmVnaXN0cnkiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZGV2ZWxvcGVyIC0+IHNvdXJjZVJlcG9zaXRvcnkgIkNvbW1pdHMgYW5kIHB1c2hlcyBjb2RlIHRvIgogICAgICAgIHNvdXJjZVJlcG9zaXRvcnkgLT4gY29kZVBpcGVsaW5lICJVc2VzIGEgd2ViaG9vayB0byB0cmlnZ2VyIgogICAgICAgIGNvZGVQaXBlbGluZSAtPiBzb3VyY2VSZXBvc2l0b3J5ICJEb3dubG9hZHMgdG8gc3RhcnQgdGhlIGJ1aWxkIHByb2Nlc3MiCiAgICAgICAgY29kZUJ1aWxkIC0+IGNvZGVQaXBlbGluZSAiRG93bmxvYWRzIHRoZSBuZWNlc3Nhcnkgc291cmNlIGZpbGVzIGFuZCBidWlsZHMiCiAgICAgICAgY29kZUJ1aWxkIC0+IGFtYXpvbkVDUiAiUHVzaGVzIGNvbnRhaW5lciBpbWFnZSB0byIKICAgICAgICBjb2RlQnVpbGQgLT4gYW1hem9uRUtTICJEZXBsb3lzIGltYWdlIG9uIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBkeW5hbWljIGF3c0Nsb3VkICJXb3JrZmxvd0NJQ0QiICJXb3JrZmxvdyBDSS9DRCBmb3IgZGVwbG95aW5nIEJvb2tzIFN0b3JlIFN5c3RlbSIgewogICAgICAgICAgICBkZXZlbG9wZXIgLT4gc291cmNlUmVwb3NpdG9yeSAiQ29tbWl0cyBhbmQgcHVzaGVzIGNvZGUgdG8iCiAgICAgICAgICAgIHNvdXJjZVJlcG9zaXRvcnkgLT4gY29kZVBpcGVsaW5lICJVc2VzIGEgd2ViaG9vayB0byB0cmlnZ2VyIgogICAgICAgICAgICBjb2RlUGlwZWxpbmUgLT4gc291cmNlUmVwb3NpdG9yeSAiRG93bmxvYWRzIHRvIHN0YXJ0IHRoZSBidWlsZCBwcm9jZXNzIgogICAgICAgICAgICBjb2RlQnVpbGQgLT4gY29kZVBpcGVsaW5lICJEb3dubG9hZHMgdGhlIG5lY2Vzc2FyeSBzb3VyY2UgZmlsZXMgYW5kIGJ1aWxkcyIKICAgICAgICAgICAgY29kZUJ1aWxkIC0+IGFtYXpvbkVDUiAiUHVzaGVzIGNvbnRhaW5lciBpbWFnZSB0byIKICAgICAgICAgICAgY29kZUJ1aWxkIC0+IGFtYXpvbkVLUyAiRGVwbG95cyBpbWFnZSBvbiIKICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgIyBlbGVtZW50IDx0YWc+IHt9CgogICAgICAgICAgICBlbGVtZW50ICJBV1MiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0ZGRkZGRgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "authorizeduser"
+      },
+      "name" : "Authorized User",
+      "description" : "A user of book store system, who has a personal account",
+      "relationships" : [ {
+        "id" : "28",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "8",
+        "description" : "Searches books records via HTTPs handlers"
+      }, {
+        "id" : "39",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Administers books detail using"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Interacts with book records using"
+      }, {
+        "id" : "31",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Administers books details via HTTP handlers"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "79",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "developer"
+      },
+      "name" : "Developer",
+      "description" : "A software engineer who contributes the system",
+      "relationships" : [ {
+        "id" : "88",
+        "sourceId" : "79",
+        "destinationId" : "80",
+        "description" : "Commits and pushes code to",
+        "linkedRelationshipId" : "87"
+      }, {
+        "id" : "87",
+        "tags" : "Relationship",
+        "sourceId" : "79",
+        "destinationId" : "81",
+        "description" : "Commits and pushes code to"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,User",
+      "properties" : {
+        "structurizr.dsl.identifier" : "publicuser"
+      },
+      "name" : "Public User",
+      "description" : "Any user who can access but is not logged on to a portal",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Interacts with book records using"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Gets books details using"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "80",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dynamicbooksstoresystem"
+      },
+      "name" : "Workflow CI/CD for deploying Books Store System",
+      "description" : "Workflow CI/CD for deploying Books Store System",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "82",
+        "tags" : "Element,Container,AWS,Amazon Web Services - Cloud",
+        "properties" : {
+          "structurizr.dsl.identifier" : "awscloud"
+        },
+        "name" : "AWS Cloud",
+        "relationships" : [ {
+          "id" : "92",
+          "sourceId" : "82",
+          "destinationId" : "81",
+          "description" : "Downloads to start the build process",
+          "linkedRelationshipId" : "91"
+        } ],
+        "components" : [ {
+          "id" : "83",
+          "tags" : "Element,Component,AWS,Amazon Web Services - CodePipeline",
+          "properties" : {
+            "structurizr.dsl.identifier" : "codepipeline"
+          },
+          "name" : "AWS CodePipeline",
+          "description" : "Downloads source code and starts the build process",
+          "relationships" : [ {
+            "id" : "91",
+            "tags" : "Relationship",
+            "sourceId" : "83",
+            "destinationId" : "81",
+            "description" : "Downloads to start the build process"
+          } ],
+          "technology" : "AWS CodePipeline Service",
+          "documentation" : { }
+        }, {
+          "id" : "85",
+          "tags" : "Element,Component,AWS,Amazon Web Services - Elastic Kubernetes Service",
+          "properties" : {
+            "structurizr.dsl.identifier" : "amazoneks"
+          },
+          "name" : "AWS EKS",
+          "description" : "Amazon Web Services - Elastic Kubernetes Service",
+          "technology" : "AWS EKS Service",
+          "documentation" : { }
+        }, {
+          "id" : "86",
+          "tags" : "Element,Component,AWS,Amazon Web Services - EC2 Container Registry",
+          "properties" : {
+            "structurizr.dsl.identifier" : "amazonecr"
+          },
+          "name" : "Amazon ECR",
+          "description" : "Stores container images which are tagged with a unique label derived from the repository commit hash",
+          "technology" : "Amazon ECR Service",
+          "documentation" : { }
+        }, {
+          "id" : "84",
+          "tags" : "Element,Component,AWS,Amazon Web Services - CodeBuild",
+          "properties" : {
+            "structurizr.dsl.identifier" : "codebuild"
+          },
+          "name" : "AWS CodeBuild",
+          "description" : "Downloads the necessary source files, builds and tags a local Docker container image",
+          "relationships" : [ {
+            "id" : "94",
+            "tags" : "Relationship",
+            "sourceId" : "84",
+            "destinationId" : "86",
+            "description" : "Pushes container image to"
+          }, {
+            "id" : "93",
+            "tags" : "Relationship",
+            "sourceId" : "84",
+            "destinationId" : "83",
+            "description" : "Downloads the necessary source files and builds"
+          }, {
+            "id" : "95",
+            "tags" : "Relationship",
+            "sourceId" : "84",
+            "destinationId" : "85",
+            "description" : "Deploys image on"
+          } ],
+          "technology" : "AWS CodeBuild Service",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "81",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "sourcerepository"
+        },
+        "name" : "Source Code Repository",
+        "description" : "A storage location for code and other software development assets, such as documentation, tests, and scripts",
+        "relationships" : [ {
+          "id" : "90",
+          "sourceId" : "81",
+          "destinationId" : "82",
+          "description" : "Uses a webhook to trigger",
+          "linkedRelationshipId" : "89"
+        }, {
+          "id" : "89",
+          "tags" : "Relationship",
+          "sourceId" : "81",
+          "destinationId" : "83",
+          "description" : "Uses a webhook to trigger"
+        } ],
+        "technology" : "GiHub, GitLab, Bitbucket, ...",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "16",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "authorizationsystem"
+      },
+      "name" : "Authorization System",
+      "description" : "An external system used for authorization",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship,Async request",
+        "sourceId" : "16",
+        "destinationId" : "2",
+        "description" : "Authorizes user"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Target System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "bookstoresystem"
+      },
+      "name" : "Books Store System",
+      "description" : "Allows users to interact with books records",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship,Async request",
+        "sourceId" : "3",
+        "destinationId" : "16",
+        "description" : "Authorizes user using"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship,Async request",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "description" : "Gives details about published books using"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "publisherrecurrentupdater"
+        },
+        "name" : "Publisher Recurrent Updater",
+        "description" : "Updates the Read/Write Relational Database with detail from Publisher System",
+        "relationships" : [ {
+          "id" : "38",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "4",
+          "description" : "Updates data with detail from Publisher System using"
+        }, {
+          "id" : "37",
+          "tags" : "Relationship",
+          "sourceId" : "15",
+          "destinationId" : "17",
+          "description" : "Listens to external events coming from"
+        } ],
+        "technology" : "Kafka",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "searchwebapi"
+        },
+        "name" : "Search Web API",
+        "description" : "Allows only authorized users searching books records via HTTPs handlers",
+        "relationships" : [ {
+          "id" : "30",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "12",
+          "description" : "Search read-only records using"
+        }, {
+          "id" : "29",
+          "tags" : "Relationship,Async request",
+          "sourceId" : "8",
+          "destinationId" : "16",
+          "description" : "Authorizes users using"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "searchdatabase"
+        },
+        "name" : "Search Database",
+        "description" : "Stores searchable books details",
+        "technology" : "ElasticSearch",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "readwriterelationaldatabase"
+        },
+        "name" : "Read/Write Relational Database",
+        "description" : "Stores books details",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "elasticsearcheventsconsumer"
+        },
+        "name" : "ElasticSearch Events Consumer",
+        "description" : "Listening to Kafka domain events and write publisher to Search Database for updating",
+        "relationships" : [ {
+          "id" : "36",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Write publisher to"
+        }, {
+          "id" : "35",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "10",
+          "description" : "Listens to Kafka domain events using"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bookkafkasystem"
+        },
+        "name" : "Book Kafka System",
+        "description" : "Handles book-related domain events",
+        "technology" : "Apache Kafka 3.0",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "readercache"
+        },
+        "name" : "Reader Cache",
+        "description" : "Caches books details",
+        "technology" : "Memcached",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "publicwebapi"
+        },
+        "name" : "Public Web API",
+        "description" : "Allows public users getting books details",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "13",
+          "description" : "Reads data from"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "14",
+          "description" : "Reads/writes data to"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "adminwebapi"
+        },
+        "name" : "Admin Web API",
+        "description" : "Allows only authorized users administering books details via HTTP handlers",
+        "relationships" : [ {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "10",
+          "description" : "Publishes events to"
+        }, {
+          "id" : "33",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "13",
+          "description" : "Administers records using",
+          "technology" : "Reads data from and writes data to"
+        }, {
+          "id" : "32",
+          "tags" : "Relationship,Async request",
+          "sourceId" : "4",
+          "destinationId" : "16",
+          "description" : "Authorizes users using"
+        } ],
+        "technology" : "Go",
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "authorizationservice"
+          },
+          "name" : "Authorization Service",
+          "description" : "Allows authorizing users, books detail",
+          "relationships" : [ {
+            "id" : "43",
+            "tags" : "Relationship,Async request",
+            "sourceId" : "6",
+            "destinationId" : "16",
+            "description" : "Authorizes users using"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        }, {
+          "id" : "5",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "bookservice"
+          },
+          "name" : "Book Service",
+          "description" : "Allows administering books detail",
+          "relationships" : [ {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "7",
+            "description" : "Publishes books-related events to"
+          }, {
+            "id" : "40",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "13",
+            "description" : "Read from and write data to"
+          }, {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "6",
+            "description" : "Authorizes books detail using"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "eventspublisherservice"
+          },
+          "name" : "Events Publisher Service",
+          "description" : "Publishes books-related domain events",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "10",
+            "description" : "Publishes books-related domain events to"
+          } ],
+          "technology" : "Go Service",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "17",
+      "tags" : "Element,Software System,External System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "publishersystem"
+      },
+      "name" : "Publisher System",
+      "description" : "An external system used for giving details about books published by Books Store System",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship,Async request",
+        "sourceId" : "17",
+        "destinationId" : "2",
+        "description" : "Gives details about published books to"
+      }, {
+        "id" : "24",
+        "tags" : "Relationship,Async request",
+        "sourceId" : "17",
+        "destinationId" : "1",
+        "description" : "Gives details about published books to"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "45",
+      "tags" : "Element,Deployment Node,Amazon Web Services - Elastic Kubernetes Service",
+      "name" : "Amazon Web Services EKS",
+      "environment" : "Production",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "46",
+        "tags" : "Element,Deployment Node,Amazon Web Services - VPC",
+        "name" : "Amazon Web Services VPC",
+        "environment" : "Production",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "47",
+          "tags" : "Element,Deployment Node,Amazon Web Services - VPC subnet public",
+          "name" : "Public Subnet - pub-net",
+          "environment" : "Production",
+          "instances" : "1",
+          "infrastructureNodes" : [ {
+            "id" : "48",
+            "tags" : "Element,Infrastructure Node,Amazon Web Services - API Gateway",
+            "properties" : {
+              "structurizr.dsl.identifier" : "apigateway"
+            },
+            "name" : "API Gateway",
+            "relationships" : [ {
+              "id" : "76",
+              "tags" : "Relationship",
+              "sourceId" : "48",
+              "destinationId" : "54",
+              "description" : "Access to"
+            }, {
+              "id" : "78",
+              "tags" : "Relationship",
+              "sourceId" : "48",
+              "destinationId" : "56",
+              "description" : "Access to"
+            }, {
+              "id" : "77",
+              "tags" : "Relationship",
+              "sourceId" : "48",
+              "destinationId" : "52",
+              "description" : "Access to"
+            } ],
+            "environment" : "Production"
+          } ]
+        }, {
+          "id" : "57",
+          "tags" : "Element,Deployment Node,Amazon Web Services - VPC subnet private",
+          "name" : "Private Subnet - priv-net-b",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "58",
+            "tags" : "Element,Deployment Node,Amazon Web Services - EC2 Instance",
+            "name" : "Amazon EC2 - EC2-b",
+            "environment" : "Production",
+            "instances" : "1",
+            "children" : [ {
+              "id" : "66",
+              "tags" : "Element,Deployment Node,Microservices",
+              "name" : "Events Consumer",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "67",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "elasticsearcheventsconsumerinstance"
+                },
+                "relationships" : [ {
+                  "id" : "68",
+                  "sourceId" : "67",
+                  "destinationId" : "64",
+                  "description" : "Write publisher to",
+                  "linkedRelationshipId" : "36"
+                }, {
+                  "id" : "74",
+                  "sourceId" : "67",
+                  "destinationId" : "73",
+                  "description" : "Listens to Kafka domain events using",
+                  "linkedRelationshipId" : "35"
+                } ],
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "11"
+              } ]
+            }, {
+              "id" : "69",
+              "tags" : "Element,Deployment Node,Amazon Web Services - ElastiCache For Memcached",
+              "name" : "AWS ElastiCache",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "70",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "readercacheinstance"
+                },
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "14"
+              } ]
+            }, {
+              "id" : "59",
+              "tags" : "Element,Deployment Node,Amazon Web Services - RDS PostgreSQL instance",
+              "name" : "AWS RDS",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "60",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "readwriterelationaldatabaseinstance"
+                },
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "13"
+              } ]
+            }, {
+              "id" : "63",
+              "tags" : "Element,Deployment Node,Amazon Web Services - Elasticsearch Service",
+              "name" : "AWS OpenSearch",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "64",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "searchdatabaseinstance"
+                },
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "12"
+              } ]
+            }, {
+              "id" : "72",
+              "tags" : "Element,Deployment Node,Amazon Web Services - Managed Streaming for Kafka",
+              "name" : "AWS Managed Streaming for Kafka",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "73",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "bookkafkasysteminstance"
+                },
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "10"
+              } ]
+            } ]
+          } ]
+        }, {
+          "id" : "49",
+          "tags" : "Element,Deployment Node,Amazon Web Services - VPC subnet private",
+          "name" : "Private Subnet - priv-net-a",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "50",
+            "tags" : "Element,Deployment Node,Amazon Web Services - EC2 Instance",
+            "name" : "Amazon EC2 - EC2-a",
+            "environment" : "Production",
+            "instances" : "1",
+            "children" : [ {
+              "id" : "51",
+              "tags" : "Element,Deployment Node,Microservices",
+              "name" : "Search Web API",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "52",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "searchwebapiinstance"
+                },
+                "relationships" : [ {
+                  "id" : "65",
+                  "sourceId" : "52",
+                  "destinationId" : "64",
+                  "description" : "Search read-only records using",
+                  "linkedRelationshipId" : "30"
+                } ],
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "8"
+              } ]
+            }, {
+              "id" : "55",
+              "tags" : "Element,Deployment Node,Microservices",
+              "name" : "Admin Web API",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "56",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "adminwebapiinstance"
+                },
+                "relationships" : [ {
+                  "id" : "75",
+                  "sourceId" : "56",
+                  "destinationId" : "73",
+                  "description" : "Publishes events to",
+                  "linkedRelationshipId" : "34"
+                }, {
+                  "id" : "62",
+                  "sourceId" : "56",
+                  "destinationId" : "60",
+                  "description" : "Administers records using",
+                  "technology" : "Reads data from and writes data to",
+                  "linkedRelationshipId" : "33"
+                } ],
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "4"
+              } ]
+            }, {
+              "id" : "53",
+              "tags" : "Element,Deployment Node,Microservices",
+              "name" : "Public Web API",
+              "environment" : "Production",
+              "instances" : "1",
+              "containerInstances" : [ {
+                "id" : "54",
+                "tags" : "Container Instance",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "publicwebapiinstance"
+                },
+                "relationships" : [ {
+                  "id" : "71",
+                  "sourceId" : "54",
+                  "destinationId" : "70",
+                  "description" : "Reads/writes data to",
+                  "linkedRelationshipId" : "27"
+                }, {
+                  "id" : "61",
+                  "sourceId" : "54",
+                  "destinationId" : "60",
+                  "description" : "Reads data from",
+                  "linkedRelationshipId" : "26"
+                } ],
+                "environment" : "Production",
+                "deploymentGroups" : [ "Default" ],
+                "instanceId" : 1,
+                "containerId" : "9"
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 1826,
+        "height" : 2600
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 797,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 426,
+        "y" : 2000
+      }, {
+        "id" : "3",
+        "x" : 443,
+        "y" : 800
+      }, {
+        "id" : "16",
+        "x" : 426,
+        "y" : 1400
+      }, {
+        "id" : "17",
+        "x" : 1176,
+        "y" : 1400
+      } ],
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 276,
+          "y" : 1700
+        }, {
+          "x" : 276,
+          "y" : 1400
+        } ]
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 4620,
+        "height" : 2020
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 3950,
+        "y" : 819
+      }, {
+        "id" : "12",
+        "x" : 3200,
+        "y" : 1419
+      }, {
+        "id" : "13",
+        "x" : 2450,
+        "y" : 1419
+      }, {
+        "id" : "14",
+        "x" : 1700,
+        "y" : 1419
+      }, {
+        "id" : "15",
+        "x" : 2450,
+        "y" : 219
+      }, {
+        "id" : "16",
+        "x" : 950,
+        "y" : 819
+      }, {
+        "id" : "17",
+        "x" : 200,
+        "y" : 819
+      }, {
+        "id" : "1",
+        "x" : 200,
+        "y" : 1419
+      }, {
+        "id" : "2",
+        "x" : 950,
+        "y" : 1419
+      }, {
+        "id" : "4",
+        "x" : 3200,
+        "y" : 819
+      }, {
+        "id" : "8",
+        "x" : 2450,
+        "y" : 819
+      }, {
+        "id" : "9",
+        "x" : 1700,
+        "y" : 819
+      }, {
+        "id" : "10",
+        "x" : 3950,
+        "y" : 1419
+      } ],
+      "relationships" : [ {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 2900,
+          "y" : 669
+        }, {
+          "x" : 1671,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 1521,
+          "y" : 1419
+        }, {
+          "x" : 3050,
+          "y" : 1119
+        } ]
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "29",
+        "vertices" : [ {
+          "x" : 2150,
+          "y" : 669
+        }, {
+          "x" : 1671,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "28",
+        "vertices" : [ {
+          "x" : 1521,
+          "y" : 1419
+        }, {
+          "x" : 2300,
+          "y" : 1119
+        } ]
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 800,
+          "y" : 819
+        } ]
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Components",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 2978,
+        "height" : 2620
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "4",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 2328,
+        "y" : 820
+      }, {
+        "id" : "2",
+        "x" : 932,
+        "y" : 2020
+      }, {
+        "id" : "16",
+        "x" : 220,
+        "y" : 1420
+      }, {
+        "id" : "5",
+        "x" : 970,
+        "y" : 220
+      }, {
+        "id" : "6",
+        "x" : 220,
+        "y" : 820
+      }, {
+        "id" : "7",
+        "x" : 970,
+        "y" : 820
+      }, {
+        "id" : "10",
+        "x" : 970,
+        "y" : 1420
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 1570,
+          "y" : 1720
+        }, {
+          "x" : 1570,
+          "y" : 820
+        } ]
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "key" : "WorkflowCICD",
+      "order" : 5,
+      "description" : "Workflow CI/CD for deploying Books Store System",
+      "dimensions" : {
+        "width" : 2370,
+        "height" : 2591
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elementId" : "82",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "87",
+        "description" : "Commits and pushes code to",
+        "order" : "1",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1523,
+          "y" : 620
+        } ]
+      }, {
+        "id" : "89",
+        "description" : "Uses a webhook to trigger",
+        "order" : "2",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1523,
+          "y" : 1699
+        } ]
+      }, {
+        "id" : "91",
+        "description" : "Downloads to start the build process",
+        "order" : "3",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1523,
+          "y" : 1999
+        } ]
+      }, {
+        "id" : "93",
+        "description" : "Downloads the necessary source files and builds",
+        "order" : "4",
+        "response" : false
+      }, {
+        "id" : "94",
+        "description" : "Pushes container image to",
+        "order" : "5",
+        "response" : false
+      }, {
+        "id" : "95",
+        "description" : "Deploys image on",
+        "order" : "6",
+        "response" : false
+      } ],
+      "elements" : [ {
+        "id" : "79",
+        "x" : 969,
+        "y" : 199
+      }, {
+        "id" : "81",
+        "x" : 1719,
+        "y" : 1099
+      }, {
+        "id" : "83",
+        "x" : 969,
+        "y" : 1999
+      }, {
+        "id" : "84",
+        "x" : 219,
+        "y" : 1399
+      }, {
+        "id" : "85",
+        "x" : 969,
+        "y" : 1399
+      }, {
+        "id" : "86",
+        "x" : 969,
+        "y" : 799
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Deployment-001",
+      "order" : 4,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 3768,
+        "height" : 2590
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Production",
+      "elements" : [ {
+        "id" : "66",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "67",
+        "x" : 2267,
+        "y" : 1022
+      }, {
+        "id" : "45",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "46",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "47",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "69",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "48",
+        "x" : 259,
+        "y" : 1022
+      }, {
+        "id" : "49",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "70",
+        "x" : 2267,
+        "y" : 1634
+      }, {
+        "id" : "50",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "72",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "51",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "73",
+        "x" : 3017,
+        "y" : 564
+      }, {
+        "id" : "52",
+        "x" : 1159,
+        "y" : 1634
+      }, {
+        "id" : "53",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "54",
+        "x" : 1159,
+        "y" : 1022
+      }, {
+        "id" : "55",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "56",
+        "x" : 1159,
+        "y" : 409
+      }, {
+        "id" : "57",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "58",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "59",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "60",
+        "x" : 2267,
+        "y" : 409
+      }, {
+        "id" : "63",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "64",
+        "x" : 3017,
+        "y" : 1330
+      } ],
+      "relationships" : [ {
+        "id" : "61",
+        "vertices" : [ {
+          "x" : 1922,
+          "y" : 889
+        }, {
+          "x" : 1955,
+          "y" : 843
+        } ]
+      }, {
+        "id" : "71",
+        "vertices" : [ {
+          "x" : 1922,
+          "y" : 1455
+        }, {
+          "x" : 1955,
+          "y" : 1501
+        } ]
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "62"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "65",
+        "vertices" : [ {
+          "x" : 1955,
+          "y" : 2114
+        }, {
+          "x" : 2822,
+          "y" : 2114
+        } ]
+      }, {
+        "id" : "75",
+        "vertices" : [ {
+          "x" : 1955,
+          "y" : 230
+        }, {
+          "x" : 2822,
+          "y" : 230
+        } ]
+      }, {
+        "id" : "78",
+        "vertices" : [ {
+          "x" : 847,
+          "y" : 843
+        } ]
+      }, {
+        "id" : "77",
+        "vertices" : [ {
+          "x" : 847,
+          "y" : 1501
+        } ]
+      }, {
+        "id" : "68"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "External System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "AWS",
+          "background" : "#ffffff"
+        } ],
+        "relationships" : [ {
+          "tag" : "Relationship",
+          "dashed" : false
+        }, {
+          "tag" : "Async request",
+          "dashed" : true
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "WorkflowCICD"
+    }
+  }
+}
